@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/nomeRotaLocais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOCAIS DA ROTA"
+        android:paddingLeft="10dp"/>
+    <ListView
+
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/branco"
+        android:layout_marginTop="@dimen/list_margin"
+        android:layout_marginLeft="@dimen/subtitle_margin"
+        android:layout_marginRight="@dimen/subtitle_margin"
+        android:layout_marginBottom="@dimen/subtitle_margin"
+        android:divider="@color/branco">
+
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADICIONAR LOCAL"
+        android:layout_alignParentBottom="true"
+        />
+
+
+    </RelativeLayout>
+
+
+
+    </LinearLayout>
